@@ -1,0 +1,52 @@
+
+body{
+    background-color: rgb(73, 202, 219);
+    color: black;
+    width: 1024px;
+    margin: 0px auto;
+}
+
+header{
+    background-color: rgb(144, 104, 197);
+    border-radius: 20px;
+}
+
+main{
+    background-color: rgb(104, 166, 207);
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none; 
+    color: green;
+}
+a:hover{
+    font-size: 140%;
+    color: coral;
+    background: blueviolet;
+    border-radius: 22px;    
+}
+
+a:active {
+    color: red;
+    background: blue;
+}
+
+
+img{
+    border: 10px outset white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px red;
+}
+
+div{
+    border-radius: 22px;
+}
+
+nav{
+    border-radius: 22px;
+    width: 22%;
+    text-align: center;
+}
+
+
