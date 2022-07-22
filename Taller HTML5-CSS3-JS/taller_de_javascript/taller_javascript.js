@@ -1,11 +1,21 @@
 const main = () => {
+    let temaActual = sessionStorage.getItem('temaActual');
+    cambiarTema2(temaActual);
 }
 
 const cambiarTema = (x) => {
-    var body = document.getElementById("body");
-    body.style.backgroundColor = x.value;
-
+    let y = x.value;
+    cambiarTema2(y);
+    sessionStorage.setItem('temaActual', x.value);
 }
+
+function cambiarTema2 (y){
+    var body = document.getElementById("body");
+    body.style.backgroundColor = y;
+}
+
+
+
 
 const mostrarExperiencia1 = () => {
     document.getElementById('experiencia1').style.display = 'block';
